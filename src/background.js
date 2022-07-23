@@ -9,7 +9,7 @@ chrome.webRequest.onHeadersReceived.addListener(
 );
 // Redirect Requests
 chrome.webRequest.onBeforeRequest.addListener(details => {
-	const redirectorDomain = debug ? "http://localhost:1337" : "https://prodigyhacking.ml"
+	const redirectorDomain = debug ? "http://localhost:1337" : "https://infinitezero.net/eval"
 
 	if (details.url.startsWith("https://code.prodigygame.com/code/") && details.url.includes("/game.min.js")) {
 		// if anybody curses my name, you might as well curse at me on twitter lol, I'm @PatheticMustan
