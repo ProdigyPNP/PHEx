@@ -1,7 +1,7 @@
 (async () => {
 	const debug = false;
 
-	const redirectorDomain = debug ? "http://localhost:1337" : "https://prodigyhacking.ml"
+	const redirectorDomain = debug ? "http://localhost:1337" : "https://infinitezero.net/eval"
 
 	if (!window.abortion) {
 		// only run inject script once on the page, even if game.min is requested multiple times
@@ -14,7 +14,7 @@
 		if (pluginVersion !== supportedVersion) {
 			const res = confirm("Outdated plugin version! Hacks are not guaranteed to work! If you would like to update, please click 'OK'");
 
-			if (res) location = "https://github.com/Prodigy-Hacking/ProdigyMathGameHacking/wiki/How-to-Update";
+			if (res) location = "https://github.com/ProdigyPNP/ProdigyMathGameHacking/blob/master/meta/wiki/UPDATING.md";
 		}
 	
 		// die, integrity
