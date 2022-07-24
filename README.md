@@ -1,17 +1,21 @@
-# Prodigy Hacking Extension (PHEx)
+# Prodigy Hacking Extension | PHEx
+Combined with [Redirector](https://github.com/ProdigyPNP/Redirector_fork) to inject modified game files into Prodigy.
 
-Combined with [Redirector](https://github.com/Prodigy-Hacking/Redirector) to inject modified game files into Prodigy.
+Works like the [Redirector](https://chrome.google.com/webstore/detail/redirector/ocgpenflpmgnfapjedencafcfakcekcd) extension, [No-CSP](https://chrome.google.com/webstore/detail/browser-header-filter-no/bdpbgfaoocdjolgbgjmpphgolanldnfo), and [a little extra spice](https://github.com/ProdigyPNP/PHEx_fork/blob/master/src/disableIntegrity.js) ;)
 
-Made of the Redirector extension, no-csp, and a little extra spice ;)
+<br>
 
-## [Usage](https://github.com/Prodigy-Hacking/ProdigyMathGameHacking/wiki/How-to-install-hacks)
+## Usage
+See our [Quickstart Guide](https://github.com/ProdigyPNP/ProdigyMathGameHacking/tree/master/meta/wiki/QUICKSTART.md)!
 
-## Building
+<br>
 
-```cmd
-node build.js
+## Build Extension
+```sh
+npm run build
 ```
 
-## Credit
+<br>
 
-Originally created by Rus, maintained by PatheticMustan.
+## Credit
+Originally created by [Rus](https://github.com/UntrustableRus) and maintained by [PatheticMustan](https://github.com/PatheticMustan).
