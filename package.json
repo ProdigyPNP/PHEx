@@ -1,22 +1,22 @@
 {
   "name": "PMGH-ext",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "build.js",
   "scripts": {
-    "start": "node build.js"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UntrustableRus/PMGH-ext.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ProdigyPNP",
+  "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/UntrustableRus/PMGH-ext/issues"
+    "url": "https://github.com/ProdigyPNP/PHEx_fork/issues"
   },
-  "homepage": "https://github.com/UntrustableRus/PMGH-ext#readme",
+  "homepage": "https://github.com/ProdigyPNP/PHEx-fork#readme",
   "dependencies": {
     "dir-archiver": "^1.1.2",
     "simple-archiver": "^1.0.1",
